@@ -23,11 +23,11 @@ Example:
 For example (set num_condit=2 to run gene regulatory networks infernce under two conditions)
 // GSL-1.16 is installed in the path: /share/apps/GSL/1.16
 
-gcc -Wall -std=c99 -I/share/apps/GSL/1.16/include -c mmio.c -o mmio.o
-gcc -fopenmp -Wall -std=c99 -g -I/share/apps/GSL/1.16/include/ -c AIMNet.c -o AIMNet.o
-gcc -fopenmp -Wall -std=c99 -g -L/share/apps/GSL/1.16/lib/  AIMNet.o mmio.o -o AIMNet -lgsl -lgslcblas -lm
-export OMP_NUM_THREADS=5
-./AIMNet demo_simuData 2
+gcc -Wall -std=c99 -I/share/apps/GSL/1.16/include -c mmio.c -o mmio.o 
+gcc -fopenmp -Wall -std=c99 -g -I/share/apps/GSL/1.16/include/ -c AIMNet.c -o AIMNet.o 
+gcc -fopenmp -Wall -std=c99 -g -L/share/apps/GSL/1.16/lib/  AIMNet.o mmio.o -o AIMNet -lgsl -lgslcblas -lm 
+export OMP_NUM_THREADS=5 
+./AIMNet demo_simuData 2 
 
 
 Compile code in local (real data):
