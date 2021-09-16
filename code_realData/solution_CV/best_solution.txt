@@ -1,0 +1,3 @@
+The 1d_index is 4 2
+The min_index is 9 2
+fused_type n0 num_condit is 1 1045 3
