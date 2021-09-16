@@ -32,7 +32,7 @@ Example:
 	./AIMNet demo_simu_data 2 
 
 
-Compile and run code in local (real data,two conditions):
+Compile and run code in local (real data, two conditions):
 ----------
 	gcc -Wall -std=c99 -I/share/apps/GSL/1.16/include -c mmio.c -o mmio.o
 	gcc -fopenmp -Wall -std=c99 -g -I/share/apps/GSL/1.16/include/ -c AIMNet.c -o AIMNet.o
