@@ -27,7 +27,7 @@ Example:
 	gcc -fopenmp -Wall -std=c99 -g -I/share/apps/GSL/1.16/include/ -c AIMNet.c -o AIMNet.o 
 	gcc -fopenmp -Wall -std=c99 -g -L/share/apps/GSL/1.16/lib/  AIMNet.o mmio.o -o AIMNet -lgsl -lgslcblas -lm 
 	export OMP_NUM_THREADS=5 
-	./AIMNet demo_simuData 2 
+	./AIMNet demo_simu_data 2 
 
 
 Compile code in local (real data):
