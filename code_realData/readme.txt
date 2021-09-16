@@ -11,8 +11,8 @@ Compile code in local (two conditions/tissues):
 
 Run program:
 // export the number of threads used in parallel
-// demo_data: the example data, num_condits is the number of tissues/conditions
-// num_condits can be 2,3,4 and 5.
+// demo_data: the example data, num_condit is the number of tissues/conditions
+// num_condit can be 2,3,4 and 5.
  
 export OMP_NUM_THREADS=5
 ./AIMNet demo_simu_data num_condit
