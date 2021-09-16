@@ -1,3 +1,5 @@
+AIMNet_code:
+----------
 /*
 This software package includes source codes in C/C++ that implements the AIMNet algoirthm for joint inference of multiple gene regulatory networks under different conditions. It also includes simulated data and real gene expression data that were used in the paper. 
 The program uses OpenMP for parallel implementation and the GNU Scientific Library(GSL) for math (GSL >=1.15).
@@ -30,7 +32,7 @@ Example:
 	./AIMNet demo_simu_data 2 
 
 
-Compile code in local (real data):
+Compile and run code in local (real data):
 ----------
 	gcc -Wall -std=c99 -I/share/apps/GSL/1.16/include -c mmio.c -o mmio.o
 	gcc -fopenmp -Wall -std=c99 -g -I/share/apps/GSL/1.16/include/ -c AIMNet.c -o AIMNet.o
